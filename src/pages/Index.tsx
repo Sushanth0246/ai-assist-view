@@ -34,6 +34,7 @@ Proud moment! Sharing a few shots from the finals. Thanks to my coach and team."
               }}
               content="Amazing training session today! The team coordination is getting better every day. Looking forward to our next match this weekend."
               timeAgo="4h"
+              image="/team-training.jpg"
             />
             
             <FeedPost
@@ -44,6 +45,7 @@ Proud moment! Sharing a few shots from the finals. Thanks to my coach and team."
               }}
               content="Just completed my 10K training run. The weather was perfect and I beat my personal record by 2 minutes! #10KTrai #EpicSaves"
               timeAgo="6h"
+              image="/running-achievement.jpg"
             />
           </div>
         </div>
