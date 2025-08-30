@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "allowJs": true,
+    "checkJs": true,
+    "jsx": "react",
+    "noImplicitAny": false,
+    "noUnusedParameters": false,
+    "noUnusedLocals": false,
+    "skipLibCheck": true,
+    "strictNullChecks": false
+  },
+  "include": ["src"],
+  "references": [
+    { "path": "./jsconfig.app.json" },
+    { "path": "./jsconfig.node.json" }
+  ]
+}
