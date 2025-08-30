@@ -23,7 +23,7 @@ const Index = () => {
 
 Proud moment! Sharing a few shots from the finals. Thanks to my coach and team."
               timeAgo="2h"
-              image="/badminton-victory.png"
+              image="/badminton-champion.jpg"
             />
             
             <FeedPost
