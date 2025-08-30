@@ -17,17 +17,22 @@ export const FeedPost = ({ author, content, timeAgo, image }: FeedPostProps) => 
     <div className="bg-post-bg border border-border rounded-xl p-6 mb-4">
       <div className="flex items-start justify-between mb-4">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 bg-accent rounded-full flex items-center justify-center">
-            <span className="text-accent-foreground font-semibold text-sm">{author.initials}</span>
+          <div className="w-10 h-10 bg-muted border border-border rounded-full flex items-center justify-center">
+            <span className="text-foreground font-semibold text-sm">{author.initials}</span>
           </div>
           <div>
             <h4 className="font-semibold text-foreground">{author.name}</h4>
             <p className="text-sm text-muted-foreground">{timeAgo}</p>
           </div>
         </div>
-        <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-foreground">
-          <MoreHorizontal className="w-4 h-4" />
-        </Button>
+        <div className="flex items-center gap-2">
+          <Button variant="outline" size="sm" className="border-border text-foreground hover:bg-nav-hover">
+            Connect
+          </Button>
+          <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-foreground">
+            <MoreHorizontal className="w-4 h-4" />
+          </Button>
+        </div>
       </div>
       
       <p className="text-foreground mb-4 leading-relaxed">{content}</p>

@@ -9,8 +9,8 @@ export const PostCreator = () => {
   return (
     <div className="bg-post-bg border border-border rounded-xl p-6 mb-6">
       <div className="flex items-start gap-4">
-        <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
-          <span className="text-primary-foreground font-semibold">U</span>
+        <div className="w-10 h-10 bg-muted border border-border rounded-full flex items-center justify-center">
+          <span className="text-foreground font-semibold">U</span>
         </div>
         
         <div className="flex-1">

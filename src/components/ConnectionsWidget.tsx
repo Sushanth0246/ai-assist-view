@@ -18,8 +18,8 @@ export const ConnectionsWidget = () => {
         {suggestions.map((person, index) => (
           <div key={index} className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-accent rounded-full flex items-center justify-center">
-                <span className="text-accent-foreground font-semibold text-sm">{person.avatar}</span>
+              <div className="w-10 h-10 bg-muted border border-border rounded-full flex items-center justify-center">
+                <span className="text-foreground font-semibold text-sm">{person.avatar}</span>
               </div>
               <span className="font-medium text-foreground">{person.name}</span>
             </div>
